@@ -14,13 +14,13 @@
     <title>Dom Website</title>
 </head>
 <body>
-    <h1 class="col-span-5">Home</h1>
+    <h1 class="col-span-5 title">Header</h1>
 
     <nav class="nav-items col-span-5 bg-col-orange">
-        <span>HOME</span>
-        <span>OUR TEAM</span>
-        <span>PROJECTS</span>
-        <span>CONTACTS</span>
+        <span id="home" onclick="changeTitle(home)">HOME</span>
+        <span id="ourTeam" onclick="changeTitle(ourTeam)">OUR TEAM</span>
+        <span id="projects" onclick="changeTitle(projects)">PROJECTS</span>
+        <span id="contacts" onclick="changeTitle(contacts)">CONTACTS</span>
         <form class="search">
             <input type="text" placeholder="Search Query" name="search-text">
             <button type="submit">Go!</button>
@@ -48,11 +48,11 @@
     <aside class="bg-col-orange">
         <h2>Related</h2>
         <ul>
-            <li><a href="">Technews 1</a> </li>
-            <li><a href="">Technews 2</a></li>
-            <li><a href="">Technews 3</a></li>
-            <li><a href="">Technews 4</a></li>
-            <li><a href="">Technews 5</a></li>
+            <li><a href="https://www.theverge.com/23519364/space-industry-2022-superlatives-artemis-dart-jwst" target="_blank">2022 in space: Achievements out of this world. Literally</a></li>
+            <li><a href="https://nypost.com/2023/01/01/twitter-sued-for-not-paying-rent-on-san-francisco-hq-since-elon-musk-takeover/" target="_blank">The one where twitter forgot to pay its rent</a></li>
+            <li><a href="https://www.theguardian.com/technology/2022/dec/31/ai-assisted-plagiarism-chatgpt-bot-says-it-has-an-answer-for-that" target="_blank">Is AI knowingly assisting plaigarism? Let it answer for itself!</a></li>
+            <li><a href="https://www.theverge.com/2023/1/2/23536193/james-webb-space-telescope-jwst-nasa" target="_blank">How the heavens were brought closer.</a></li>
+            <li><a href="" target="_blank">Technews 5</a></li>
         </ul>
     </aside>
 
